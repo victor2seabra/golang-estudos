@@ -1,4 +1,4 @@
-package main
+package teste
 
 import "fmt"
 
@@ -7,7 +7,8 @@ import "fmt"
 
 const x int64 = 10 // uma constante nao pode ter seu valor alterado
 
-func main() {
+// somente funções e outros objetos iniciados com letra maiscula podem ser importados
+func Teste() {
 	// definindo variaveis com tipagem explicita dentro de funções
 	// local scope
 	var y float64 = 5.5
