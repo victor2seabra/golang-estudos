@@ -4,7 +4,6 @@ import "fmt"
 
 // definindo explicitamente variáveis
 // global scope
-
 const x int64 = 10 // uma constante nao pode ter seu valor alterado
 
 // somente funções e outros objetos iniciados com letra maiscula podem ser importados
@@ -26,6 +25,8 @@ func Teste() {
 	*/
 	if a := z + int(y); a != 0 {
 		fmt.Println("Not zero")
+	} else if b := false; !b {
+		fmt.Print(b)
 	} else {
 		fmt.Println("Zero")
 	}
